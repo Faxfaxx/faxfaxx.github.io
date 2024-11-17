@@ -5,15 +5,15 @@
 
 body {
     background:#223;
-    font-family: 'Times New Roman', Times, serif;  
-    color: white; 
+    font-family: 'Times New Roman', Times, serif; 
+    color: white;
 }
 
 .header__h1 {
     display: flex;
     justify-content: center;
     text-decoration: underline;
-    font-size: 3em;
+    font-size: clamp(2em, 5vw, 3em);
     margin: .5em;
 }
 
@@ -21,7 +21,7 @@ body {
     text-decoration: underline;
     font-size: 2em;
     margin: .5em;
-    margin-left: 1em;
+    margin-left: .75em;
 }
 
 .main__paragraph {
@@ -55,6 +55,14 @@ li {
     height: 40%;
     margin: 3em;
     display: block;
+    scale: 1;
+    transition: all .5s ease-in-out;
+}
+
+.images:hover {
+    scale: 1.1;
+    filter: drop-shadow(0 0 .5em white);
+    transition: all .5s ease-in-out;
 }
 
 .main__section {
@@ -66,4 +74,89 @@ li {
     background: #0004;
     max-width: 90%;
     border-radius: 1em;
+}
+
+nav {
+    background: #0004;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+}
+
+.logo {
+    height:2.5em;
+	width: 2.5em;
+	border-radius: 50%;
+	padding: .5em;
+	box-shadow: 0 0 .5em white;
+	transition: all .5s ease-in-out;
+}
+
+.navbar-toggler {
+    box-shadow: 0 0 .2em white;
+    filter: drop-shadow(0 0 .1em white);
+}
+
+.navbar-brand {
+    text-decoration: none;
+    margin: .3em;
+    height: 3em;
+    width: 3em;
+    filter: drop-shadow(0 0 .2em white);
+    transition: all .5s ease-in-out;
+}
+
+.navbar-brand:hover {
+    filter: drop-shadow(0 0 .5em white);
+    scale: 1.2;
+    transition: all .5s ease-in-out;
+}
+
+.discord {
+    height: 2.5em;
+	width: 2.5em;
+	border-radius: 50%;
+	padding: .5em;
+    box-shadow: 0 0 .5em white;
+    transition: all .5s ease-in-out;
+}
+
+footer {
+    background: #0004;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: underline;
+    display: flex;
+    margin-top: 5em;
+    height: 4em;
+    z-index: -1;
+}
+
+.subtitle {
+    text-decoration: underline;
+    font-size: 1.5em;
+    margin: .5em;
+    margin-left: 1em;
+}
+
+.link__footer {
+    text-decoration: none;
+    color: white;
+}
+
+.link__footer:hover {
+    color: rgba(255, 255, 255, .9);
+    scale: 1.1;
+    transition: all .5s ease-in-out;
+}
+
+.nav__search {
+    background: none;
+    max-width: 50%;
+    border-radius: 1.5em;
+	font-size: 1.5em;
+	color: white;
+	width: 100%;
+	padding: .5em;
 }

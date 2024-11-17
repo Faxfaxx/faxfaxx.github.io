@@ -3,44 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
     <title>Minecraft Wiki</title>
+    <link rel="icon" href="./images/whiteLogo.png">
 
 </head>
 <body>
     <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/Logo.png" alt="logo" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <input type="text" class="nav__search" placeholder="Search">
+          <img src="./images/discord-logo.png" alt="discord" class="navbar-brand discord">
+          </div>
+        </div>
+      </nav>
         <h1 class="header__h1">
-            No se que titulo poner
+            Welcome to the Minecraft Wiki!
         </h1>
     </header>
-    
     <main>
-        <section class="main__section">
-        <div class="section">
-        <div>
-            <h2 class="main__subtitle">
-                what is minecraft?
-            </h2>
-            <p class="main__paragraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium molestias optio dignissimos corporis obcaecati sapiente beatae dolore consequatur! Amet temporibus dolorum commodi dolorem voluptas. Reiciendis, iste in. Minus ipsa tenetur, quia accusamus voluptates in ratione sed! Accusantium totam architecto corrupti nemo, ea natus. Culpa quia maiores, beatae vero at sunt itaque in expedita, dolor quam ipsa? Itaque, tempore quam cupiditate debitis, est quaerat adipisci, enim totam dolor exercitationem inventore illum voluptatibus delectus illo aliquam animi! Cum enim reprehenderit unde sed architecto distinctio minus consequatur omnis rerum neque nam vel, quis quas laboriosam sint sapiente reiciendis repellendus. Voluptas veniam iure harum!z
-            </p>
         </div>
+        <section class="main__section">
+          <div class="section">
             <div>
-                <ul>
+              <h2 class="main__subtitle">
+                what is minecraft?
+              </h2>
+                <div class="conteiner_paragraph">
+                  <p class="main__paragraph">
+                    Minecraft is a popular open-world video game created by Mojang in 2011. It is known for its blocky graphics, where players can explore, gather resources, build structures, and face creatures in a vast, procedurally generated world. There are several game modes, with the main ones being Survival mode, where players must manage resources and avoid dying from hunger or attacks, and Creative mode, which offers unlimited resources and the ability to build without limits.
+                  </p>
+                    <h4 class="subtitle">are you interesed? read more about it clicking one of the blocks below!</h4>
+                </div>
+            </div>
+              <div>
+                  <ul>
                     <li><a class="links" href="./pages/dirt.html"><img class="images" src="./images/dirt.png" alt="dirt"></a></li>
                     <li><a class="links" href="./pages/grass.html"><img class="images" src="./images/grass.png" alt="grass"></a></li>
-                    <li><a class="links" href="./pages/stone.html"><img class="images" src="./images/stone.png" alt="stone"></a></li>
+                    <li><a class="links" href="./pages/stone.html"><img class="images" src="./images/Stone.webp" alt="stone"></a></li>
                     <li><a class="links" href="./pages/cobblestone.html"><img class="images" src="./images/cobblestone.png" alt="cobblestone"></a></li>
                     <li><a class="links" href="./pages/sand.html"><img class="images" src="./images/sand.png" alt="sand"></a></li>
                     <li><a class="links" href="./pages/wood.html"><img class="images" src="./images/wood.png" alt="wood"></a></li>	
-                </ul>
+                  </ul>
+              </div>
             </div>
-        </div>
     </section>
     </main>
-    <footer>
-
-    </footer>
+      <footer>
+          <a href="https://www.instagram.com/faxfax._/" target="_blank" class="link__footer">Instagram</a>
+          <a href="https://www.twitter.com/faxi_b0t" class="link__footer" target="_blank">Twitter</a>
+          <a href="https://github.com/Faxfaxx" target="_blank" class="link__footer">Github</a>
+          <a href="https://discord.gg/9w9x9z9" class="link__footer" target="_blank">Discord</a>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
 </body>
 </html>
