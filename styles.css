@@ -84,20 +84,6 @@ nav {
     height: 5em;
 }
 
-.logo {
-    height:2.5em;
-	width: 2.5em;
-	border-radius: 50%;
-	padding: .5em;
-	box-shadow: 0 0 .5em white;
-	transition: all .5s ease-in-out;
-}
-
-.navbar-toggler {
-    box-shadow: 0 0 .2em white;
-    filter: drop-shadow(0 0 .1em white);
-}
-
 .navbar-brand {
     text-decoration: none;
     margin: .3em;
@@ -118,7 +104,7 @@ nav {
 	width: 2.5em;
 	border-radius: 50%;
 	padding: .5em;
-    box-shadow: 0 0 .5em white;
+	box-shadow: 0 0 .5em white;
     transition: all .5s ease-in-out;
 }
 
